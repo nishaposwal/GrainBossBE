@@ -30,7 +30,7 @@ const config = {
   cors: {
     origin: environment === 'development' 
       ? ['http://localhost:4200'] 
-      : ['https://grain-management-frontend.vercel.app', 'http://localhost:4200'],
+      : ['https://grainboss-3dd6d.web.app', 'http://localhost:4200'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   }
